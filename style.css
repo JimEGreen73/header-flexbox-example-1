@@ -7,7 +7,6 @@ body {
   margin: 20;
   background: #eee;
   font-family: Besley, serif;
-  
 }
 
 
@@ -16,9 +15,7 @@ body {
   width: 1400px;
   background: white;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
-   
-  
+  box-shadow: 0 0 8px rgba(0,0,0,.1); 
 }
 
 #lower-border {
@@ -26,7 +23,7 @@ body {
   min-width: fit-content;
   height: 40px;
   background-color: rgb(201, 194, 189);
-  
+  border-top:  rgb(195, 187, 181) solid 2px;
 }
   
 .head-align-left {
@@ -36,8 +33,6 @@ body {
 .head-align-right {
   display: flex;
   margin-left: auto;
-  
-
 }
 
 .profile-image {
@@ -46,9 +41,8 @@ body {
   border-radius: 50%;
   width: 48px;
   height:  48px;
-  
-  
-  
+  margin-top: 12px;
+  margin-right: 5px; 
 }
 
 .logo {
@@ -56,10 +50,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
- 
- 
-  
-
+  margin-left: 10px;
 }
 
 button {
@@ -69,12 +60,12 @@ button {
   font-family: 'Times New Roman', Times, serif;  
   font-size: 16px;
   width: 210px;
-  height: 50px;
+  height: 30px;
   border-radius: 500px;
   background: rebeccapurple;
   color: white;
-  margin: 10px;  /* Do not delete this margin */
-
+  margin: 20px;  /* Do not delete this margin */
+  border: none;
 } 
   
 
@@ -85,18 +76,14 @@ a {
   justify-content: center;
   text-decoration: none;
   color: rebeccapurple;
-  margin: 8px 5px;
-  
-  
-  
+  margin: 8px 5px; 
 }
 
 ul {
   list-style-type: none;
   margin: 5px;
   display: flex;
-  gap: 5px;
-  
+  gap: 5px; 
 }
 
 
