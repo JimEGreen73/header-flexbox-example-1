@@ -7,7 +7,7 @@ body {
   margin: 20;
   background: #eee;
   font-family: Besley, serif;
-  border: 5px red solid;
+  
 }
 
 
@@ -17,17 +17,16 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-  border: 15px red solid;
-  margin: 5px;
+   
+  
 }
 
 #lower-border {
   display: flex;
   min-width: fit-content;
   height: 40px;
-  border: 15px red solid;
   background-color: rgb(201, 194, 189);
-  margin: 5px;
+  
 }
   
 .head-align-left {
@@ -47,8 +46,8 @@ body {
   border-radius: 50%;
   width: 48px;
   height:  48px;
-  border: 5px red solid;
-  margin: 5px;
+  
+  
   
 }
 
@@ -57,8 +56,8 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  border: 5px red solid;
-  margin: 5px;
+ 
+ 
   
 
 }
@@ -71,11 +70,10 @@ button {
   font-size: 16px;
   width: 210px;
   height: 50px;
-  border: 5px red solid;
   border-radius: 500px;
   background: rebeccapurple;
   color: white;
-  margin: 10px;  /* Do not delete this margin */a
+  margin: 10px;  /* Do not delete this margin */
 
 } 
   
@@ -87,7 +85,6 @@ a {
   justify-content: center;
   text-decoration: none;
   color: rebeccapurple;
-  border: 5px red solid;
   margin: 8px 5px;
   
   
@@ -96,7 +93,6 @@ a {
 
 ul {
   list-style-type: none;
-  border: 5px red solid;
   margin: 5px;
   display: flex;
   gap: 5px;
@@ -110,4 +106,3 @@ ul {
   
  
  
-}
